@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="#projects" target="_blank" rel="noopener noreferrer">Project</a>
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>About Me</h1>
+        <p>
+          Motivated and result-oriented engineering greduate. Always ready to
+          learn new things with experiment. Strong problem solving skills and
+          well communicator.
+        </p>
+      </section>
+      <section>
+        <h1>Contact</h1>
+        <form action="" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" required maxlength="50" value="name"  />
+          </div>
+          <textarea name="message" id="msg" cols="30" rows="10">
+                Write something to me.
+            </textarea
+          >
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="number" required name="number" maxlength="10" value="number"  />
+          </div>
+          <div>
+            <label for="date">Date of appointment</label>
+            <input type="datetime-local" placeholder="date" required />
+          </div>
+
+          <div>
+            <label for="contactvia">Contact Via</label><br />
+            <label for="whatsapp">whatsapp</label>
+            <input type="radio" name="contact" required /><br />
+            <label for="call">Call</label>
+            <input type="radio" name="contact" required />
+          </div>
+          <div>
+            <h1>Choose Time Slots</h1>
+            <label for="morning">Morning 9 am - 10 am</label>
+            <input type="checkbox" value="morning" name="morning" />
+            <label for="afternoon">Afternoon 2 pm - 3 pm</label>
+            <input type="checkbox" value="afternoon" name="afternoon" />
+            <label for="evening">Evening 7 pm - 8 pm</label>
+            <input type="checkbox" value="evening" name="evening" />
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+
+      <section id="project">
+        <a href="project">Project</a>
+        <table border="1" cellspacing="0">
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Link</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Library Management System</td>
+            <td>
+              <ul>
+                <li>Used functionalities to add author, student and book.</li>
+                <li>Author can add new book to his account .</li>
+                <li>
+                  When student issue a book he will get notification through
+                  Gmail.
+                </li>
+                <li>
+                  Added functionality like findStudentByEmail, updateEmail,
+                  findByAge.
+                </li>
+              </ul>
+            </td>
+            <td>
+              <a
+                href="https://github.com/shiva-saini/Library_ManageMent_System"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repo</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ecommerce Site</td>
+            <td>
+              <ul>
+                <li>Implemented add customer functionality .</li>
+                <li>
+                  When a user register Cart will we created for that user.
+                </li>
+                <li>
+                  Customer can place order directly as well as through cart.
+                </li>
+                <li>
+                  The moment user will place order Email will be sent a
+                  notification .
+                </li>
+                <li>Added functionality to add seller .</li>
+                <li>Customer can add intems to cart.</li>
+                <li>Applied Exception Handling, ORM.</li>
+              </ul>
+            </td>
+            <td>
+              <a
+                href="https://github.com/shiva-saini/EcommerceApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Repo</a
+              >
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <h1>You can also connect with me on:</h1>
+      <ul>
+        <li>
+          <a href="mailto:shivasainisiyana2211@gmail.com" target="_blank"
+            >Gmail</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/shiva-saini" target="_blank">Github</a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/shiva-saini-bb77181ab/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
