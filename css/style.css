@@ -1,0 +1,33 @@
+
+
+/* .container p:nth-child(2n-1){
+    color:blue;
+} */
+
+.container p:nth-child(3n){
+    color:blue;
+}
+
+.container p:nth-child(3n):hover{
+    color:yellow;
+}
+
+.container p:nth-child(3n):active{
+    color:green;
+}
+
+
+.para-1::first-line{
+    color:maroon;
+}
+
+.para-1::first-letter{
+    color:blue;
+}
+
+
+.para-1::before{
+    content:url('../swiggy.jpg');
+}
+
+ 
