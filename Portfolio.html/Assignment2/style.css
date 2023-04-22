@@ -3,33 +3,44 @@
     margin:0px
 }
 
-
-.section1{
-    display: flex;
-    justify-content: center;
-}
 body{
     background-color: black;
 }
 
-.div1{
-    width: 500px;
-}
-
 
 .navbar{
-border:5px  #FCAF02 solid;
-height: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color:#FCAF02;
-}
-
-.div2{
+    border:5px  #FCAF02 solid;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:#FCAF02;
+  
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+   height: 300px;
+   
+}
+
+
+.div1{
+    width: 4000px;
+    margin: 10px;
+    height: 500px;
+    color:white;
+}
+
+
+
+
+.div2{
+    width: 4000px;
+    margin: 10px;
+    height: 500px;
+    color:white;
 }
 
 
@@ -63,29 +74,24 @@ background-color:#FCAF02;
 }
 
 img{
-    width: 450px;
-    height: 200px;
+    width: 431px;
+    height: 203px;
     position: relative;
-    top: 23px;
+    top: 27px;
     rotate: y -180deg;
 }
 
-.section2{
-    display: flex;
-    justify-content: center;
 
-}
-
-
-.section2h{
-    color: #FCAF02;
-    margin-left: 25px;
-    margin-top: 30px;
-}
 
 
 #name:hover{
     border: 1px #027ffc solid;
+}
+
+.section2h{
+    color:#FCAF02;
+    font-size: 26px;
+    margin-left:8px;
 }
 
 
@@ -124,7 +130,7 @@ img{
 }
 
 #phone{
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
     padding: 10px;
     background-color: #1E1E1E;
@@ -137,11 +143,12 @@ img{
 }
 
 #city{
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
     padding: 10px;
     background-color: #1E1E1E;
     border: 1px #FCAF02 solid;
+    margin-left: 100px;
 
 }
 
@@ -157,7 +164,9 @@ img{
     width: 500px;
     border-radius: 20px;
     padding: 10px;
+    margin:5px;
     
+    color: #FCAF02;
 }
 
 .form{
@@ -169,6 +178,10 @@ img{
 
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FCAF02;
+    opacity: 1; /* Firefox */
+  }
 
 .center {
     display: flex;
@@ -189,12 +202,12 @@ img{
 
 
 .section3{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+   
+    margin-top:50px
 }
 
 table{
+    margin-left:20px;
     border: 2px solid #FCAF02;
     color: #FCAF02;
     width: 928px;;
